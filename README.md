@@ -2,6 +2,8 @@
 
 This Flutter package simplifies pagination by integrating the `signals` package and `pull_to_refresh_flutter3`. It provides a convenient `PaginationScreen` widget to handle paginated data fetching, displaying, and refreshing.
 
+![Demo Video](assets/demo.gif "A sample video")
+
 ## Features
 
 - Easy integration for paginated data fetching.

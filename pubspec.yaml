@@ -1,6 +1,6 @@
 name: sig_pagination
 description: "A Flutter package designed to simplify pagination with ease. Leveraging the strengths of the signals package and pull_to_refresh_flutter3, sig_pagination provides a highly customizable and user-friendly solution for handling paginated data in Flutter applications"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/gabbygreat/sig_pagination
 
 environment:
