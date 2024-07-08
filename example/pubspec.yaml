@@ -1,0 +1,23 @@
+name: example
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  dio: ^5.5.0+1
+  flutter:
+    sdk: flutter
+  signals: ^5.2.2
+  sig_pagination:
+    path: ../../sig_pagination
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
