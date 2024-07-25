@@ -5,7 +5,11 @@ import 'package:sig_pagination/view/view.dart';
 import 'package:sig_pagination/model/model.dart';
 
 class MockPagination extends APagination {
-  MockPagination() : super();
+  MockPagination({
+    this.page = 0,
+    this.total = 100,
+    this.size = 50,
+  }) : super();
 
   @override
   void reset() {
@@ -16,6 +20,15 @@ class MockPagination extends APagination {
   void increment() {
     page++;
   }
+
+  @override
+  int page;
+
+  @override
+  int size;
+
+  @override
+  int total;
 }
 
 void main() {

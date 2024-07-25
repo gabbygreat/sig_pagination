@@ -1,14 +1,15 @@
 abstract class APagination {
-  int page;
-  int total;
-  int size;
+  int get page;
+  set page(int value);
+
+  int get total;
+  set total(int value);
+  int get size;
+  set size(int value);
   String? search;
   String? id;
 
   APagination({
-    this.page = 0,
-    this.total = 100,
-    this.size = 50,
     this.search,
     this.id,
   }) {
