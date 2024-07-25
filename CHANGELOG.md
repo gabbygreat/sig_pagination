@@ -14,6 +14,12 @@
 
 ## [0.0.2] - 2024-07-14
 
-### Fixed
+### Fixes
 
 - Included a demo video.
+
+## [0.0.2] - 2024-07-25
+
+### Fixes
+
+- Fixed the APagination model.
