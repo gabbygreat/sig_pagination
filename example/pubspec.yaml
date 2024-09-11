@@ -10,7 +10,7 @@ dependencies:
   dio: ^5.5.0+1
   flutter:
     sdk: flutter
-  signals: ^5.2.2
+  signals: ^4.5.1
   sig_pagination:
     path: ../../sig_pagination
 
